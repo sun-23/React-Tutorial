@@ -20,7 +20,7 @@ class Header extends Component {
       <h1>Course React</h1>
       <h1>{this.state.name}</h1>
       {/*<p>{this.state.count}</p>*/}
-      <a href="/app">App</a>
+      <a href="/">App</a>
       </div>
     );
   }

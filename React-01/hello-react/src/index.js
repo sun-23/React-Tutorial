@@ -11,9 +11,9 @@ const browserHistory = createHistory();
 
 ReactDOM.render(
   <Router history={browserHistory}>
-  <a href="/app">App</a><br/>
-  <a href="/header">Header</a>
-  <Route path="/app" component={App} />
+  {/*a href="/">App</a><br/>
+  <a href="/header">Header</a>*/}
+  <Route path="/" component={App} exact/>
   <Route path="/header" component={Header}/>
   </Router>,document.getElementById('root') // id root in index.js
  );

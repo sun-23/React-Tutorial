@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    background-image: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%))
+}
+
+/*header*/
+
+header {
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 15px 20px;
+    width: 600px;
+    border: 3px hsl(217, 16%, 45%) solid;
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+}
+
+
+img#Logo {
+    float: left;
+}
+
+div#score-div {
+    float: right;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div#score-div > p {
+    color: hsl(229, 64%, 46%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+div#score-div > h1 {
+    color: hsl(229, 25%, 31%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 4rem;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+
+/*rule*/
+
+div#rule-div {
+    position: relative;
+    margin: 0px auto;
+    height: 420px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div#rule-div > h1 {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: hsl(229, 25%, 31%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+div#rule-div > img#btn {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+div#rule-div > img#img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    margin: 0px auto;
+}

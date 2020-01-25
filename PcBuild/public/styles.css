@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div.divShop {
+  max-width: 80%;
+  width: auto;
+  margin: auto;
+  left: 10%;
+  right: 10%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*selectt flex*/
+div.flex-Select {
+  margin: 20px;
+}
+
+div.flex-Select > h1 {
+  margin: 10px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+/*select item*/
+
+div.Selectitem {
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+}
+
+div.Selectitem > img {
+  margin:5px;
+  width: auto;
+  height: 50px;
+}
+
+div.Selectitem > h3 {
+  margin: 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+/*product flex*/
+div.flex-product {
+  display: flex;
+  flex-direction: column;
+}
+
+/*btn select page*/
+div.btnPage {
+  margin: 20px;
+}
+
+div.btnPage > button {
+  margin: 5px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/*item show 1 product*/
+div.divItem {
+  float: left;
+  font-family: sans-serif;
+  text-align: left;
+  width: auto;
+  padding: 20px;
+}
+
+div.divItem > img {
+  width: 200px;
+}
+
+div.divItem > h1 {
+  font-size: 16px;
+  color: tomato;
+}
+
+div.divItem > h2 {
+  font-size: 13px;
+}
+
+div.divItem > button {
+  margin: 10px;
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+/* item404 */
+div.itemNotFound {
+  width: auto;
+  height: auto;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+div.itemNotFound > h3 {
+  font-family: sans-serif;
+  padding: 20px;
+  font-weight: 300;
+}

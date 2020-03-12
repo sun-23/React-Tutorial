@@ -26,7 +26,7 @@ function useTimes(sort = 'TIME_ASC') {
         })
 
         return () => unsubscribe();
-    }, [sort]) //when sort change then rerun effect
+    }, [sort]) //when sort change then unsubscribe and rerun effect
 
     return times
 }

@@ -13,6 +13,7 @@ const store = createStore(
 );
 
 ReactDOM.render(
+    //send data store to App.js
     <Provider store={store}>
         <App />
     </Provider>, 
